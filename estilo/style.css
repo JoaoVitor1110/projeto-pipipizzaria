@@ -16,7 +16,7 @@
   --cor5: #00a000be;
   --cor6: #61120ece;
 
-  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-padrao: Verdana, Helvetica, sans-serif;
   --fonte-destaque: "BebasNeue", "cursive";
   --fonte-italiana: "Italianno", "cursive";
 }
@@ -46,8 +46,8 @@ nav {
 }
 
 nav a {
-  font-family: var(--fonte-italiana), sans-serif;
-  font-size: 40px;
+  font-family: var(--fonte-destaque), sans-serif;
+  font-size: 50px;
   font-weight: bold;
   border-radius: 5px;
   padding: 5px;
@@ -94,12 +94,12 @@ main h2 {
 }
 
 main p {
-  font: italic bold 1em Arial, sans-serif;
+  font: italic bold 1em var (--fonte-padrao)
 }
 
 ul {
   list-style-type: none;
-  font: italic bold 20px Arial, sans-serif;
+  font: italic bold 20px var (--fonte-padrao);
   padding-top: 15px;
   padding-bottom: 15px;
   line-height: 2em;
